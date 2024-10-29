@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-linux-capabilities"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python library providing an enumeration of Linux capabilities."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -22,4 +22,4 @@ classifiers = [
 "Homepage" = "https://github.com/damwiw/py-linux-capabilities"
 
 [tool.setuptools.packages.find]
-where = ["linux_capabilities"]
+where = ["src/linux_capabilities"]
