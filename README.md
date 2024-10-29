@@ -6,13 +6,13 @@
 
 For a standard installation, use:
 ```
-python3 -m pip install [--break-system-packages] linux_capabilities
+python3 -m pip install [--break-system-packages] py-linux-capabilities
 ```
 
 To install from TestPyPI, use:
 
 ```
-pip install -i https://test.pypi.org/simple/ linux-capabilities
+pip install -i https://test.pypi.org/simple/ py-linux-capabilities
 ```
 
 ## Build
