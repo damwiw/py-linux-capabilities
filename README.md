@@ -5,19 +5,25 @@
 ## Installation
 
 For a standard installation, use:
-```bash
-python3 -m pip install [--break-system-packages] linux_capabilities```
+```
+python3 -m pip install [--break-system-packages] linux_capabilities
+```
 
 To install from TestPyPI, use:
 
-```bash
-pip install -i https://test.pypi.org/simple/ linux-capabilities```
+```
+pip install -i https://test.pypi.org/simple/ linux-capabilities
+```
 
 ## Build
+```
 python3 -m build
+```
 
 ## Usage
+```
 from linux_capabilities import LinuxCapabilities
 
 mycap = LinuxCapabilities.CAP_SYS_ADMIN
 print(mycap)
+```
